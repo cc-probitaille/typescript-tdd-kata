@@ -52,13 +52,13 @@ M
 
 */
 
-import { StringCalc } from "../stringCalc";
+import { StringCalculator } from "../stringCalculator";
 
 describe("String calculator", () => {
-  let stringCalc: StringCalc;
+  let stringCalc: StringCalculator;
   
   beforeEach(() => {
-    stringCalc = new StringCalc();
+    stringCalc = new StringCalculator();
   });
 
   it("should take an empty string", () => {
